@@ -19,15 +19,33 @@ console.log('Second foo() call: ',y, z);
 // You pass everything a function needs as parameters
 
 function bar(x,y,z) {
-  function foo(x) {
+  foo();
+  return [y,z];
+
+  function foo() {
     y = y * x;
     z = z * x;
   }
-
-  foo(x);
-
-  return [y,z];
 }
 
 console.log(bar(5,2,3));
 console.log(bar(5,10,15));
+
+
+
+function barwww(x,y,z) {
+  var z;
+
+  foowww();
+
+	return [z];
+
+  function foowww() {
+		y++;
+		z = x * y;
+	}
+}
+
+console.log(barwww(20,5));
+console.log(barwww(20,5));
+console.log(barwww(25,6));
