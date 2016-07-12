@@ -1,0 +1,20 @@
+{
+  "name": "functional-lite-javascript",
+  "version": "1.0.0",
+  "description": "Functional programming approaches and techniques in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimoNonnis/functional-lite-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimoNonnis/functional-lite-javascript/issues"
+  },
+  "homepage": "https://github.com/SimoNonnis/functional-lite-javascript#readme"
+}
