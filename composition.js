@@ -30,4 +30,4 @@ function compose(f1,f2) {
 }
 
 var zzz = compose(mult,sum)(3,4,5);
-console.log('Compositon utility2: ', zzz);
+console.log('Compositon utility: ', zzz);
