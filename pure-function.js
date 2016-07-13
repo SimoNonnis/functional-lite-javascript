@@ -1,3 +1,4 @@
+'use strict';
 // An impure function is a function that produces a side-effect.
 // Side-effect are actions like changing variables outside of the
 // body function, I/O, ajax calls, database queries and even console.log().
