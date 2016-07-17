@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Functional programming approaches and techniques in Javascript",
   "scripts": {
-    "start": "node map.js"
+    "start": "node reduce.js"
   },
   "repository": {
     "type": "git",
